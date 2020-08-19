@@ -1,0 +1,254 @@
+body {
+    
+margin:0;
+padding:0;
+font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+
+
+header {
+    
+display: flex;
+align-items: auto;
+padding: 10px;
+font-size; 2em;
+color: white;
+background-color: #333;
+height: 4.5rem;
+}
+
+.logo {
+
+height: 50px;
+margin-right: 20px;
+}
+
+
+.heading, .logo {
+    
+    display: inline-block;
+    
+}
+
+
+
+ul {
+  margin-left: 70px;
+    align-self: stretch;
+ }
+
+
+ul a {
+    
+    text-decoration: none;
+}
+
+
+li {
+    
+    list-style-type:  none;
+    display: inline-block;
+    margin: 3px;
+    padding: 15px;
+    color: white;
+   
+}
+
+li:hover {
+    
+    color: lightgreen;
+}
+
+
+.leading {
+
+height: 260px;
+margin-bottom: 30px;
+padding: 30px;
+color: white;
+background: url("https://media.giphy.com/media/IuKnqFMhtcA2A/giphy.gif") center #333 no-repeat;
+background-size: cover;
+background-color: white;
+ text-shadow: 0px 0px 5px #000;   
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+
+
+.leading-bigtext {
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 2.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media ( min-width: 700px){
+    .leading-bigtext {
+     font-size: 110px;
+    }
+}
+
+.leading-text {
+    
+    max-width: 960px;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.cards {
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+
+article {
+    position: relative;
+    
+}
+
+
+.article-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+
+.article-img:hover {
+    
+      opacity: 0.4;
+}
+
+.article-title {
+    position: absolute;
+    bottom: 23px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba( 255,255,255, 0.3);
+    color: lightgoldenrodyellow;
+}
+
+
+.area {
+    
+    position: absolute;
+    float: right;
+    bottom: 0;
+    width: 50%;
+    padding: 5px;
+    background-color: rgba( 255,255,255, 0.3);
+    color: lightgoldenrodyellow;
+}
+
+
+@media (min-width: 700px) {
+ .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+#Botox {
+    
+    
+    position: fixed;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+    margin: 5px 75px;
+    font-size:  1.1em;
+    font-family: 'Poppins', sans-serif; 
+    border: none;
+    cursor: pointer;
+}
+
+
+#Botox:hover {
+    
+    background-color: green;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .leading-text {
+        
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    
+    body {
+        
+        max-width: 100%;
+    }
+    
+    header {
+        
+       height: 5.9rem;
+    }
+    
+    
+   .heading, .logo {
+    
+    display: inline;
+    
+} 
+    
+    .heading{
+        font-size: 16px;
+        padding-left: 40px;
+        padding-top: 0;
+    } 
+    
+    
+    . heading h1 {
+        
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    
+    li {
+        
+        padding: 3px;
+    }
+    
+    
+    ul {
+      transform: translate(3px, 10px);
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+   
+ul a {
+    
+    display: block;
+    text-decoration: none;
+    margin-right: 0;
+    top: 0;
+}
+
+    .leading-bigtext {
+        
+        display: none;
+    } 
+    
+    
+}
